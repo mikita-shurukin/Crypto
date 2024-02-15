@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #coinsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #coinsTable th, #coinsTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  #coinsTable th {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  #coinsTable td {
+    background-color: #f9f9f9;
+  }
+  
+  .textGreen {
+    color: rgb(151, 224, 42);
+  }
+  
+  .textRed {
+    color: rgb(202, 78, 78);
+  }
+  
